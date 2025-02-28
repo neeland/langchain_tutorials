@@ -1,3 +1,11 @@
-secrets.txt
-**/*.cpython-312.pyc
+# Ignore text files with typo in extension
+**/*..txt
+
+# Ignore Python compiled files
+**/*.pyc
+
+# Ignore environment files
 **/*.env
+
+# Ignore database files
+**/*.db
